@@ -17,3 +17,6 @@ class Config(object):
     SESSION_USE_SIGNER = True # 让cookie中的session_id 做加密处理
     SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST,port=REDIS_POST)
     PERMANENT_SESSION_LIFETIME = 86400 # session 的有效期 单位为秒
+
+	
+	HAHA
